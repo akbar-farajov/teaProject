@@ -1,0 +1,38 @@
+.priority__items {
+    display: flex;
+
+}
+
+@media only screen and (max-width: 360px) {
+    .priorities {
+        padding: 30px 0;
+    }
+
+    .title {
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .desc {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .image {
+        margin-top: 10px;
+    }
+
+    .priority__items {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        gap: 30px;
+        font-family: Open Sans;
+    }
+
+    .priority {
+        text-align: center;
+    }
+}

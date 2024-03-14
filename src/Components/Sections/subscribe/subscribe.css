@@ -1,0 +1,50 @@
+.subscribes {
+    padding: 30px 0;
+}
+
+.subscribe {
+    display: flex;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.subscribe-text {
+    margin: 20px 0;
+    color: rgb(108, 106, 106);
+    /* text-align: center; */
+}
+
+.form {
+    font-family: Open Sans;
+}
+
+.input-submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.input {
+    width: 100%;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 0;
+    color: rgb(160, 160, 160);
+    border: none;
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.privacy-message {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.privacy-text {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(108, 106, 106);
+}
