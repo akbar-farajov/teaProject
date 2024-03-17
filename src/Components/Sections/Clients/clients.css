@@ -27,7 +27,16 @@
     margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .clients {
+        width: 100%;
+        flex-wrap: wrap;
+    }
 
+    .client {
+        width: 30%;
+    }
+}
 
 @media only screen and (max-width: 360px) {
     .clients__items {

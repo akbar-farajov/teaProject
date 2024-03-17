@@ -10,6 +10,7 @@
     gap: 30px;
     text-align: center;
     font-family: Open Sans;
+    width: 100%;
 }
 
 .title {
@@ -21,6 +22,17 @@
     font-weight: 600;
     font-size: 17px;
     margin: 20px 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .priority__items {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+.priority {
+    width: 40%;
 }
 
 @media only screen and (max-width: 360px) {

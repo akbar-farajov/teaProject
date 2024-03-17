@@ -33,8 +33,13 @@ span {
     margin-top: 15px;
 }
 
+
 .company {
     margin-left: 150px;
+}
+
+.company__item {
+    margin-top: 15px;
 }
 
 .text-area {
@@ -68,4 +73,12 @@ span {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer__items {
+        /* display: flex; */
+        flex-wrap: wrap;
+        /* align-items: center; */
+    }
 }

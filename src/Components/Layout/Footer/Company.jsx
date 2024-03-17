@@ -7,22 +7,22 @@ export default function Company() {
                     <a href="">About us</a>
                 </li>
                 <li className="company__item">
-                    <a href="">About us</a>
+                    <a href="">Contact us</a>
                 </li>
                 <li className="company__item">
-                    <a href="">About us</a>
+                    <a href="">Our Blog</a>
                 </li>
                 <li className="company__item">
-                    <a href="">About us</a>
+                    <a href="">FAQ</a>
                 </li>
                 <li className="company__item">
-                    <a href="">About us</a>
+                    <a href="">Shipping & Delivery</a>
                 </li>
                 <li className="company__item">
-                    <a href="">About us</a>
+                    <a href="">Refund policy</a>
                 </li>
                 <li className="company__item">
-                    <a href="">About us</a>
+                    <a href="">Terms of Service</a>
                 </li>
             </ul>
         </div>

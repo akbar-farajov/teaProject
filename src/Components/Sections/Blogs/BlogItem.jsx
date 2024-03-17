@@ -1,4 +1,4 @@
-import blogIcon from '../../../../public/blog-images/blog-icon.png' 
+import blogIcon from '../../../../public/blog-images/blog-icon.png';
 
 export default function BlogItem({image, title, author}) {
     return (
@@ -7,9 +7,11 @@ export default function BlogItem({image, title, author}) {
                 <img src={image} />
             </div>
             <div className="info">
-                <h3 className="title">{title}</h3>
+                <h5 className="info-title">{title}</h5>
                 <p className="author">{author}</p>
-                <p className="read">Read  <img src={blogIcon} alt="" /></p>
+                <p className="read">
+                    Read <img src={blogIcon} alt="" />
+                </p>
             </div>
         </div>
     );
