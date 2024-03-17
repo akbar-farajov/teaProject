@@ -4,9 +4,10 @@ export default function Subscribe() {
     return (
         <div className="subscribes">
             <div className="container">
-                <h2 className="section-name">Want to know more?</h2>
+                
                 <div className="subscribe">
                     <div className="left">
+                    <h2 className="section-name">Want to know more?</h2>
                         <p className="subscribe-text">
                             Join our mailing list and stay up-to-date with the
                             latest news, promotions, and exclusive offers from

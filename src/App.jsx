@@ -5,6 +5,7 @@ import Text from './Components/Sections/Text/Text';
 import Blogs from './Components/Sections/Blogs/Blogs';
 import Priorities from './Components/Sections/Priorities/Priorities';
 import Subscribe from './Components/Sections/subscribe/Subscribe';
+import Footer from './Components/Layout/Footer/Footer';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Blogs />
             <Subscribe />
             <Priorities />
+            <Footer />
         </>
     );
 }
