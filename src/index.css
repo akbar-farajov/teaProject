@@ -21,14 +21,6 @@ body {
   --extra-large-breakpoints:
 }
 
-@media only screen and (max-width: 360px) {
-  .section-name {
-    font-size: 24px;
-    text-align: center;
-    font-weight: 400;
-  }
-}
-
 .section-name {
   font-size: 40px;
   text-align: center;
@@ -44,3 +36,15 @@ body {
   padding: 0 15px;
 }
 
+@media only screen and (max-width: 480px) {
+  .section-name {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .container {
+    margin: 0 0;
+    padding: 0 15px;
+  }
+}
