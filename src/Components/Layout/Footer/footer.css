@@ -6,6 +6,7 @@
 
 .footer__items {
     display: flex;
+    gap: 60px;
     /* flex-wrap: wrap; */
     /* align-items: center; */
 }
@@ -34,33 +35,33 @@ span {
 }
 
 
-.company {
-    margin-left: 150px;
-}
 
 .company__item {
     margin-top: 15px;
 }
 
-.text-area {
-    margin: 70px 0 0 120px;
-}
+
 
 .text {
     margin-bottom: 20px;
+    width: 200px;
 }
 
 .contact {
-    margin-left: 30px;
+    width: 200px;
 }
 
 .contact__items {
     margin-top: 50px;
+
 }
 
 .contact__item {
     color: rgb(117, 117, 117);
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .logo-contact {
@@ -75,10 +76,11 @@ span {
     gap: 15px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 768px) {
     .footer__items {
-        /* display: flex; */
+        width: 100%;
         flex-wrap: wrap;
-        /* align-items: center; */
+        gap: 50px;
+        justify-content: center;
     }
 }
