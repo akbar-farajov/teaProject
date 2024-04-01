@@ -6,7 +6,7 @@ import Blogs from './Components/Sections/Blogs/Blogs';
 import Priorities from './Components/Sections/Priorities/Priorities';
 import Subscribe from './Components/Sections/subscribe/Subscribe';
 import Footer from './Components/Layout/Footer/Footer';
-import Menu from './Components/Layout/UI/burger-menu/Menu';
+// import Menu from './Components/Layout/UI/burger-menu/Menu';
 
 function App() {
     return (

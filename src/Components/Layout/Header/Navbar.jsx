@@ -1,22 +1,41 @@
-
 export default function Navbar() {
     return (
-        <nav className="navbar">
-            <ul className="nav__links">
-                <li className="nav__link">
-                    <a href="#">Black</a>
+        <nav className="hidden  md:block">
+            <ul className="flex items-center">
+                <li className="px-5">
+                    <a
+                        href="#"
+                        className="text-black text-lg hover:opacity-[.5] font-normal">
+                        Black
+                    </a>
                 </li>
-                <li className="nav__link">
-                    <a href="#">Green</a>
+                <li className="px-5">
+                    <a
+                        href="#"
+                        className="text-black text-lg hover:opacity-[.5] font-normal">
+                        Green
+                    </a>
                 </li>
-                <li className="nav__link">
-                    <a href="#">White</a>
+                <li className="px-5">
+                    <a
+                        href="#"
+                        className="text-black text-lg hover:opacity-[.5] font-normal">
+                        White
+                    </a>
                 </li>
-                <li className="nav__link">
-                    <a href="#">Oolong</a>
+                <li className="px-5">
+                    <a
+                        href="#"
+                        className="text-black text-lg hover:opacity-[.5] font-normal">
+                        Oolong
+                    </a>
                 </li>
-                <li className="nav__link">
-                    <a href="#">Pu-erh</a>
+                <li className="px-5">
+                    <a
+                        href="#"
+                        className="text-black text-lg hover:opacity-[.5] font-normal">
+                        Pu-erh
+                    </a>
                 </li>
             </ul>
         </nav>

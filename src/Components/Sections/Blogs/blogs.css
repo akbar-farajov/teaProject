@@ -49,6 +49,7 @@
 }
 
 @media only screen and (max-width: 840px) {
+
     .blog__item {
         width: 70%;
 
