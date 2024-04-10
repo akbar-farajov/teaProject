@@ -8,13 +8,13 @@ export default function Clients() {
                 <div className="clients">
                     <div className="client">
                         <p className='client-words'>
-                            As a tea enthusiast, I have tried teas from all over
+                            "As a tea enthusiast, I have tried teas from all over
                             the world, but this tea store truly stands out.
                             Their teas are of the highest quality and the
                             variety is impressive. I love how they offer rare
                             and unique teas that are hard to find elsewhere.
                             This is definitely a tea store that every tea lover
-                            should visit.
+                            should visit."
                         </p>
                         <h2 className='client-name'>Alice</h2>
                     </div>
