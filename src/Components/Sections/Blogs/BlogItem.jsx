@@ -1,4 +1,4 @@
-import blogIcon from '../../../../public/blog-images/blog-icon.png';
+import blogIcon from '/blog-images/blog-icon.png';
 
 export default function BlogItem({image, title, author}) {
     return (

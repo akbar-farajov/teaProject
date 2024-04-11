@@ -1,7 +1,7 @@
-import storeIcon from '../../../../../public/Header-images/icon1.png';
-import personIcon from '../../../../../public/Header-images/icon2.png';
-import searchIcon from '../../../../../public/Header-images/icon3.png';
-import xIcon from '../../../../../public/x.png';
+import storeIcon from '/Header-images/icon1.png';
+import personIcon from '/Header-images/icon2.png';
+import searchIcon from '/Header-images/icon3.png';
+import xIcon from '/x.png';
 
 import './mobMenu.css';
 

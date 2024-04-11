@@ -5,8 +5,8 @@ import Actions from './Actions';
 import HeaderBottom from './HeaderBottom';
 
 import './Header.css';
-import logo from '../../../../public/Header-images/logo.png';
-import menu from '../../../../public/Header-images/burger-menu.png';
+import logo from '/Header-images/logo.png';
+import menu from '/public/Header-images/burger-menu.png';
 import MobMenu from '../UI/burger-menu/MobMenu';
 
 function Header() {

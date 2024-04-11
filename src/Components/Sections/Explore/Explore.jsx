@@ -1,11 +1,11 @@
 import './Explore.css';
 
 // images
-import blackTea from '../../../../public/Explore-images/black-tea.png';
-import greenTea from '../../../../public/Explore-images/green-tea.png';
-import whiteTea from '../../../../public/Explore-images/white-tea.png';
-import oolong from '../../../../public/Explore-images/oolong.png';
-import puErh from '../../../../public/Explore-images/pu-erh.png';
+import blackTea from '/Explore-images/black-tea.png';
+import greenTea from '/Explore-images/green-tea.png';
+import whiteTea from '/Explore-images/white-tea.png';
+import oolong from '/Explore-images/oolong.png';
+import puErh from '/Explore-images/pu-erh.png';
 
 export default function Explore() {
     return (
